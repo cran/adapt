@@ -76,7 +76,7 @@ adapt <- function (ndim, lower, upper, minpts = 100, maxpts = NULL,
 			"Check the returned relerr!"),
 		  "Ifail=3: ndim > 20 -- rewrite the fortran code ;-) !",
 		  "Ifail=4, minpts > maxpts; should not happen!",
-		  "Ifail=5, internal non-convergence; should not happen!",
+		  "Ifail=5, internal non-convergence; should not happen!"
 		  )[x$ifail])
 
     class(x) <- "integration"
